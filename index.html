@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Css Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Kota Kendal</title>
+  </head>
+  <body id="home">
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <a href="#home" class="navbar-brand">Kendal</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tentang" class="nav-link">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sejarah" class="nav-link">Sejarah</a>
+          </li>
+          <li class="nav-item">
+            <a href="#lambang" class="nav-link">Lambang</a>
+          </li>
+          <li class="nav-item">
+            <a href="#budaya" class="nav-link nav-end">Budaya</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+
+      <!-- Carousel -->
+      <div class="carousel">
+        <div class="carousel-container">
+          <div class="slides">
+            <img src="assets/img/slide1.jpg" alt="" class="carousel-img" />
+            <h2>Selamat Datang Di Kabupaten Kendal</h2>
+          </div>
+          <div class="slides">
+            <img src="assets/img/slide2.jpg" alt="" class="carousel-img" />
+            <h2>Selamat Datang Di Kabupaten Kendal</h2>
+          </div>
+          <div class="slides">
+            <img src="assets/img/slide3.jpg" alt="" class="carousel-img" />
+            <h2>Selamat Datang Di Kabupaten Kendal</h2>
+          </div>
+        </div>
+        <button class="prev" onclick="changeSlides(-1)"><</button>
+        <button class="next" onclick="changeSlides(1)">></button>
+      </div>
+      <div class="indicator">
+        <span class="dot" onclick="currentSlide(1) "></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- main -->
+    <main>
+      <div class="content">
+        <div class="card1">
+          <div class="card-isi" id="tentang">
+            <img src="assets/img/tentang.jpg" alt="i love kendal" class="tentang-img" />
+            <h1 class="title">Tentang Kendal</h1>
+            <article class="card-body">
+              <span>Kendal</span> adalah salah satu kabupaten di provinsi Jawa Tengah, Indonesia. Ibu kotanya ada di kecamatan kendal dan masuk dalam wilayah metropolitan Kedungsapur yang merupakan wilayaj metropolitan terbesar keempat
+              setelah Jabodetabekpunjur, Gerbangkertosusila, dan Cekungan Bandung. Kabupaten ini berbatasan dengan Laut Jawa di utara,kota Semarang, dan Kabupaten Semarang di timur,kabupaten Temanggung di selatan, serta kabupaten Batang di
+              barat. Kendal dikenal sebagai kota Santri karena terdapat ribuan Ponpes terutama di Kecamatan Kaliwungu, serta juga dikenal dengan Kota seni dan Budaya.
+            </article>
+          </div>
+          <div class="card-isi" id="sejarah">
+            <h1 class="title">Sejarah Kendal</h1>
+            <article class="body-sejarah">
+              Nama Kendal diambil dari nama sebuah pohon yakni Pohon Kendal. Pohon itu pada mulanya tidak ada yang tahu namanya tetapi ketika Pakuwojo bersembunyi di pohon itu di dalam pohon itu terang benderang akhirnya pohon itu dinamakan
+              pohon Qondhali yang berarti penerang dan akhirnya daerah tempat pohon itu dinamakan Qondhali karena orang Jawa tidak fasih berbahasa Arab maka jadi Kendal. Pohon yang berdaun rimbun itu sudah dikenal sejak masa Kerajaan Demak
+              pada tahun 1500 - 1546 M yaitu pada masa Pemerintahan Sultan Trenggono. Pada awal pemerintahannya tahun 1521, Sultan Trenggono pernah memerintah Sunan Katong untuk memesan Pusaka kepada Pakuwojo.
+            </article>
+            <img src="assets/img/pohon-kendal.jpg" alt="pohon kendal" class="tentang-img" />
+            <article class="body-sejarah">
+              Peristiwa yang menimbulkan pertentangan dan mengakibatkan kematian itu tercatat dalam Prasasti. Bahkan hingga sekarang makam kedua tokoh dalam sejarah Kendal yang berada di Desa Protomulyo Kecamatan Kaliwungu itu masih
+              dikeramatkan masyarakat secara luas. Menurut kisah, Sunan Katong pernah terpana memandang keindahan dan kerindangan pohon Kendal yang tumbuh di lingkungan sekitar. Sambil menikmati pemandangan pohon Kendal yang tampak "sari"
+              itu, Dia menyebut bahwa di daerah tersebut kelak bakal disebut "Kendalsari". Pohon besar yang oleh warga masyarakat disebut-sebut berada di pinggir Jalan Pemuda Kendal itu juga dikenal dengan nama Kendal Growong karena
+              batangnya berlubang atau growong.
+            </article>
+            <article class="body-sejarah">
+              Dari kisah tersebut diketahui bahwa nama Kendal dipakai untuk menyebutkan suatu wilayah atau daerah setelah Sunan Katong menyebutnya. Kisah penyebutan nama itu didukung oleh berita-berita perjalanan Orang-orang Portugis yang
+              oleh Tom Peres dikatakan bahwa pada abad ke 15 di Pantai Utara Jawa terdapat Pelabuhan terkenal yaitu Semarang, Tegal dan Kendal. Bahkan oleh Dr. H.J. Graaf dikatakan bahwa pada abad 15 dan 16 sejarah Pesisir Tanah Jawa itu
+              memiliki yang arti sangat penting.
+            </article>
+          </div>
+          <div class="card-isi" id="lambang">
+            <h1 class="title">Lambang</h1>
+            <div class="card-isi2">
+              <div class="card-lambang">
+                <img src="assets/img/logo-kabupaten-kendal.png" alt="Lambang Kabupaten Kendal" class="lambang" id="lambang" />
+                <label for="lambang">Lambang 2011</label>
+              </div>
+              <div class="card-penjelasan">
+                <article class="card-body-lambang">Lambang pertama Kabupaten Kendal ditetapkan berdasarkan Peraturan Daerah Kabupaten Kendal Tahun 1967 tentang Lambang Daerah Kabupaten Kendal.</article>
+                <article class="card-body-lambang">Pada tahun 2011, Bupati Widya Kandi Susanti meluncurkan lambang baru, dan dikukuhkan dengan Perda No. 21 Tahun 2011. Lambang ini memuat:</article>
+                <ul>
+                  <li>perisai kuning yang di atasnya terdapat pita merah putih dan selendang hijau</li>
+                  <li>motto Ngesti widdhi di antara sebilah keris</li>
+                  <li>roda gerigi 10 gigi</li>
+                  <li>padi 28 butir dan kapas 7 kuntum</li>
+                  <li>perahu bermotif batik mengapung di atas lautan</li>
+                  <li>nama kendal 1605</li>
+                </ul>
+              </div>
+            </div>
+            <article class="card-body-penjelasan">
+              Pada tahun 2017, sejumlah pihak mengajukan komplain terhadap lambang baru Kabupaten Kendal. Bupati Mirna Annisa membuat sebuah surat keputusan untuk mengkaji ulang serta memberi kesempatan kepada masyarakat terkait penggunaan
+              lambang Kendal 2011. Menanggapi hal tersebut, Teguh Yuwono, pakar kebijakan publik Universitas Diponegoro, menyebut bahwa lambang sangat penting sebagai sebuah identitas daerah, mengatakan bahwa "tanpa logo, orang tidak
+              mengenal suatu daerah atau negara." Anis Rufiyanto selaku pakar desain grafis mengatakan bahwa logo lama Kendal cukup sakral, sementara "logo baru sangat standar." Masduki Yussak selaku mantan Bupati Kendal juga menyayangkan
+              penggantian lambang daerah karena "hilangnya kendil" di lambang baru.
+            </article>
+            <article class="card-body-penjelasan">
+              Pemerintah Kabupaten Kendal memutuskan untuk mengembalikan lambang tersebut ke lambang lama pada September 2019. Kabag Hukum Setda Kendal Nur Fuad mengatakan bahwa sosialisasi diadakan untuk menyerap aspirasi dan menyebarkan
+              informasi terkait penggantian lambang, sebelum disampaikan ke DPRD Kendal. Proposal kembali ke lambang lama tersebut ditolak mentah-mentah oleh Pansus II DPRD Kabupaten Kendal. Susanti, yang kelak menjadi anggota DPRD Kendal
+              cukup menyayangkan pencopotan spanduk, baliho, dan atribut kampanye lainnya oleh Satpol PP karena dianggap "tebang pilih (...) Logo Kendal yang sekarang bukan logo tersebut, kenapa Satpol PP tidak berani mencopotnya?" Bintang
+              Yudha Daneswara juga menyoroti tenda-tenda di seputaran Alun-alun Kendal di depan Kantor Bupati, masih menggunakan lambang lama, seraya berkata bahwa pemasangan logo yang tidak sesuai dianggap "menyalahi perda." Ironisnya,
+              Annisa menganggap bahwa penggunaan lambang lama "tidak menyalahi aturan (...) Perda itu justru dibuat pada masa Bupati Widya Kandi Susanti, bukan saya.
+            </article>
+            <div class="card-lambang-lama">
+              <img src="assets/img/LOGO_KABUPATEN_KENDAL_LAMA.png" alt="Lambang lama Kabupaten Kendal" class="lambang" id="lambang" />
+              <label for="lambang">Lambang lama</label>
+            </div>
+          </div>
+          <div class="card-isi" id="budaya">
+            <h1 class="title">Seni dan Budaya</h1>
+            <article class="body-sejarah">
+              Kabupaten Kendal kaya dengan kegiatan budaya baik yang bersifat tradisional maupun agamais seperti Syawalan Kaliwungu (event ini sudah terkenal hampir di seluruh Pulau Jawa), Tari Rodhat, Sedekah Laut Tanggul Malang, Pesta
+              Laut Tawang dan Pantai Bandengan. Di samping itu terdapat beberapa makam dari tokoh-tokoh adat maupaun penyebar Agama Islam di antaranya adalah Makam Pangeran Djuminah, Kiai Asyari, Sunan Katong, Paku Wojo yang terletak di
+              Kecamatan Kaliwungu, Makam Pangeran Benowo di Kecamatan Pegandon dan Makam Kiai Seapu di Kecamatan Boja. Di Cepiring juga ada pasar Cepiring dan berbagai macam padagang di antara toko sepeda BMS yang dari dulu sudah ada di
+              sana.
+            </article>
+            <h3 class="budaya">Pakaian Adat</h3>
+            <div class="pakaian">
+              <img src="assets/img/pakaian adat.jpg" alt="pakaian adat" class="budaya-img" />
+              <div class="penjelasa-budaya">
+                <article class="penjelasan-pakaian">
+                  Putra: Blangkon model Mataram mondol trepes, jebeh nutup telinga. Busana bagian atas menggunakan beskap Sutowijayan (bagian depan nutup ke kanan dan jatuh lurus ke bawah dengan 3 saku, bagian belakang landung dan belahan
+                  di samping kiri dan kanan). Bagian bawah menggunakan nyamping/kain pesisiran menggunakan sabuk, epek timang, memakai keris/duwung, dan menggunakan selop tertutup.
+                </article>
+                <article class="penjelasan-pakaian">
+                  Putri: Sanggul khas Kendal, rambut disasak dan dirapikan seperti halnya membuat sanggul jawa dan bagian samping kanan dan kiri dibentuk mepet telinga (tanpa sunggar). Kemudian untuk bentuk sanggulnya menggunakan sanggul
+                  Jawa Solo ukuran kecil dengan 3 tusuk konde model lingkar.
+                </article>
+              </div>
+            </div>
+            <h3 class="budaya">Tari Rodhat</h3>
+            <div class="pakaian">
+              <img src="assets/img/Tari_Rodat.jpg" alt="tarian rodhat" class="budaya-img" />
+              <div class="penjelasa-budaya">
+                <article class="penjelasan-pakaian">
+                  Tari Rodhat/Lengguk, merupakan tari pergaulan yang bersifat massal yang diiringi alat musik terbang (semacam rebab) dengan lagu lagu pujian kepada Allah SWT seperti Selawatan dan Kasidahan.
+                </article>
+              </div>
+            </div>
+            <h3 class="budaya">Opak Abang</h3>
+            <div class="pakaian">
+              <img src="assets/img/opak abang.jpg" alt="opak abang" class="budaya-img" />
+              <div class="penjelasa-budaya">
+                <article class="penjelasan-pakaian">
+                  Opak Abang, merupakan akronimis dari kata kethoprak dan terbang. Artinya pertunjukan drama tradisional (kethoprak) yang diiringi musik dengan dominasi terbang. Kesenian ini berbasis pada drama tradisional yang menampilkan
+                  cerita-cerita babat dan legenda maupun cerita rekaan yang berkubang pada persoalan pada persolan kemanusiaan. Karakteristik yang paling menonjol pada kesenian ini di samping iringan musiknya yang menggunakan instrumen
+                  perkusi terbang, kostumnya yang khas berupa sarung dan peci. Hal ini memberikan tanda bahwa kesenian ini berbasis akrab dengan kondisi kemasyarakatan di sekitarnya.
+                </article>
+              </div>
+            </div>
+            <h3 class="budaya">Simthud Dhuror</h3>
+            <div class="pakaian">
+              <img src="assets/img/Kesenian-Simtudduror.jpg" alt="Simthud Dhuror" class="budaya-img" />
+              <div class="penjelasa-budaya">
+                <article class="penjelasan-pakaian">
+                  Simthud Dhuror, merupakan selawatan untuk memuji junjungan Nabi Muhammad. Kalau di bulan Rabiul Awal (Maulud) diadakan Safari maulud, yaitu acara mauludan secara berkeliling/bergilir di penjuru kota/kabupaten.
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="card2">
+          <img src="assets/img/me.jpg" alt="my photo" class="my-img" />
+          <h3 class="my-name">Khalid Fadhil Arrafi</h3>
+          <article class="pelajar">Mahasiswa</article>
+          <table>
+            <tbody>
+              <tr>
+                <td class="fw">Panggilan <span class="titik">:</span></td>
+                <td class="text">Khalid</td>
+              </tr>
+              <tr>
+                <td class="fw">Asal <span>:</span></td>
+                <td class="text">Kendal</td>
+              </tr>
+              <tr>
+                <td class="fw">Hobi <span class="hobi">:</span></td>
+                <td class="text">Bermain Game</td>
+              </tr>
+            </tbody>
+          </table>
+        </aside>
+      </div>
+    </main>
+    <!-- end of main -->
+
+    <!-- Footer -->
+    <footer>
+      <h4>Created With Love</h4>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
